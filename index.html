@@ -9,16 +9,16 @@
     <!--header-->
     <h1>Broadway Design</h1>
     <!---navigation--------->
-    <nav>
-      <p>Home</p>
-      <p>Process</p>
-      <p>Work</p>
-      <p>Team</p>
-      <p>Contact</p>
+    <nav id="Home">
+      <p><a href="#Home">Home</a></p>
+      <p><a href="#About">Process</a></p>
+      <p><a href="#Work">Work</a></p>
+      <p><a href="#Team">Team</a></p>
+      <p><a href="#Contact">Contact</a></p>
     </nav>
   </div>
   <!--body and about me section-->
-  <div class="process">
+  <div id="About">
     <h2>Our Process</h2>
     <img src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/identify.svg">
     <h3>Identify</h3>
@@ -31,16 +31,22 @@
     <p>We put everything we have into our work</p>
   </div>
   <h3 class="origin">Designed in New York</h3>
-  <h3 class="work">Portfolio</h3>
+  <h3 id="Work">Portfolio</h3>
   <p>Coming soon</p>
-  <h3 class="team">Team</h3>
+  <h3 id="Team">Team</h3>
   <p>We're hiring</p>
   <!--Contact information-->
-  <h3 class="contact">Contact</h3>
+  <h3 id="Contact">Contact</h3>
   <p>Phone: (555)-555-5555</p>
   <p>E-mail: test@example.com</p>
   <p>Twitter: @test</p>
   <!--footer-->
-  <p class="foot"> &copy; Broadway 2016 <span>Home</span>&nbsp;<span>About</span>&nbsp;<span>Work</span>&nbsp;<span>Team</span>&nbsp;<span>Contact</span></p>
+  <p class="foot"> &copy; Broadway 2016
+    <a href="#Home">Home</a>&nbsp;
+    <a href="#About">About</a>&nbsp;
+    <a href="#Work">Work</a>&nbsp;
+    <a href="#Team">Team</a>&nbsp;
+    <a href="#Contact">Contact</a>
+  </p>
 </body>
 </html>
