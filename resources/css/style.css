@@ -9,10 +9,11 @@ h1{
    color: white;
  }
 
- nav p{
+nav p a{
    font-family: Helvetica;
    font-size: 18px;
    font-weight: bold;
+   color: white;
  }
 
 .header{
@@ -44,10 +45,19 @@ p{
   background-image: url("../images/the-flatiron-building.png");
 }
 
-.foot{
-  font-family: Helvetica;
+.footer p{
   font-size: 11px;
   color: white;
+  font-family: Helvetica;
+}
+
+.footer a{
+  color:white;
+  font-family: Helvetica;
+  font-size: 14px;
+}
+
+.footer{
   background-color: dimgray;
   text-align: left;
 }
